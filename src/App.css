@@ -1,0 +1,37 @@
+.App {
+  background-color: hsl(0, 0%, 99%);
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all 180ms ease-in-out;
+}
+a:hover {
+  color: rgb(0, 154, 196);
+}
+.spanBtn {
+  color: blueviolet;
+  font-size: 1.1rem;
+  transition: all 180ms ease-in-out;
+}
+.deleteBtn {
+  display: inline;
+  margin: 10px;
+}
+.spanBtn:hover {
+  color: rgb(0, 154, 196);
+}
+.deleteBtn:hover {
+  color: red;
+}
+
+.backBtn {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
